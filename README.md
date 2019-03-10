@@ -1,4 +1,4 @@
-# spidy
+# Spidy
 Web Crawler on Go language (Golang).
 
 # How to use
