@@ -1,8 +1,8 @@
 # Spidy
 Web Crawler on Go language (Golang).
 
-# How to use
-`docker run --rm xaxaxasanyok/spidy -u "https://example.com"`
+## How to use
+`docker run --rm 3abpwasm/spidy -u "https://example.com"`
 
 Usage:
 ```
@@ -15,13 +15,13 @@ Usage of /bin/spidy:
         Target Uri, required
 ```
 
-# Build from source
+## Build from source
 Download source code:
 `$ go github.com/3a9LL/spidy`
 Go to project directory like $GOPATH/github.com/3a9LL/spidy and build this:
 `$ go build -ldflags="-s -w"`
 
-# Example
+## Example
 Lets crawl by url "https://golang.org/doc/articles/go_command.html":
 ```bash
 $ docker run --rm 3abpwasm/spidy -u "https://golang.org/doc/articles/go_command.html"
