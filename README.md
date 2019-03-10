@@ -21,6 +21,7 @@ Usage of /bin/spidy:
 
 Download source code:
 `$ go github.com/3a9LL/spidy`
+
 Go to project directory like $GOPATH/github.com/3a9LL/spidy and build this:
 `$ go build -ldflags="-s -w"`
 
