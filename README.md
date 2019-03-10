@@ -1,6 +1,6 @@
 # Spidy
 
-Web crawler on Go language (Golang).
+Web crawler written on Go using [Colly](http://go-colly.org/).
 
 ## How to use
 
@@ -19,15 +19,20 @@ Usage of /bin/spidy:
 
 ## Build from source
 
+Get requirements:
+
+`$ go get -u github.com/gocolly/colly/...`
+
 Download source code:
+
 `$ go github.com/3a9LL/spidy`
 
 Go to project directory like $GOPATH/github.com/3a9LL/spidy and build this:
+
 `$ go build -ldflags="-s -w"`
 
 ## Example
 
-Lets crawl by url "https://golang.org/doc/articles/go_command.html":
 ```bash
 $ docker run --rm 3abpwasm/spidy -u "https://golang.org/doc/articles/go_command.html"
 [+] Spidy started working
