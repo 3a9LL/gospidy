@@ -1,6 +1,6 @@
 # Spidy
 
-Web Crawler on Go language (Golang).
+Web crawler on Go language (Golang).
 
 ## How to use
 
