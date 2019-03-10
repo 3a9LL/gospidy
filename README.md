@@ -2,7 +2,7 @@
 
 Web crawler written on Go using [Colly](http://go-colly.org/).
 
-## How to use
+## Usage
 
 `docker run --rm 3abpwasm/spidy -u "https://example.com"`
 
