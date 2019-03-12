@@ -101,7 +101,7 @@ func (s *Spider) Run() chan string {
 
 			colly.Async(true),
 			// TODO: better way for caching GET requests, current is not stable
-			colly.CacheDir("/tmp/spidy_cache"),
+			colly.CacheDir("spidy_cache"),
 		)
 
 
